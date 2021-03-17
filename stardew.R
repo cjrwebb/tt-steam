@@ -208,3 +208,5 @@ ggsave(filename = "stardew_1.png", plot = stardew_1,
 ggsave(filename = "stardew_2.png", plot = stardew_2,
        width = 9, height = 5, bg = "#FFE39C")
 
+grid:::grid.rect(gp=grid::gpar(fill="#FFE39C", col="#FFE39C"))
+ggplot2:::print.ggplot(stardew_2, newpage=FALSE)
